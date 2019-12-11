@@ -10,4 +10,5 @@ Endpoint to filter and upload images, which uses query parameter to download an 
 try: `try /filteredimage?image_url={{anyimageurl}}`
 
 ### Deploying the system
-The application is deployed to AWS with the help of elastic-beanstalk cli, using `eb init`, `eb create` and `eb deploy`.
+The application is deployed to AWS with the help of elasticbeanstalk cli, using `eb init`, `eb create` and `eb deploy`.
+The deployed app can be found [here](http://cdnd-project-a-dev.eu-central-1.elasticbeanstalk.com/)
